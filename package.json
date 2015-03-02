@@ -1,0 +1,16 @@
+{
+  "name": "app-website-style",
+  "version": "0.0.1",
+  "description": "style customlize for app webstite",
+  "author": "samhwang1990@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-cssmin": "0.12.2",
+    "grunt-contrib-stylus": "0.20.0",
+    "grunt-contrib-watch": "0.6.1",
+    "nib": "1.1.0",
+    "stylus": "0.50.0"
+  }
+}
