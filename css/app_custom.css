@@ -246,26 +246,31 @@
     width: 49%;
   }
   .main .wrap .left .wukuai01,
-  .main .wrap .left .wukuai03,
-  .main .wrap .left .ping {
-    margin-right: 2%;
-  }
-  .main .wrap .left .wukuai05 {
-    display: none;
-  }
-  .main .wrap .left .wukuai01,
   .main .wrap .left .wukuai02,
   .main .wrap .left .wukuai03,
-  .main .wrap .left .wukuai04 {
+  .main .wrap .left .wukuai04,
+  .main .wrap .left .wukuai05,
+  .main .wrap .left .wukuai06,
+  .main .wrap .left .wukuai07,
+  .main .wrap .left .wukuai08,
+  .main .wrap .left .wukuai09 {
     padding-left: 0;
     text-align: center;
     background: #fff;
   }
+  .main .wrap .left .app_wukuai_dismiss {
+    display: none;
+  }
+  .main .wrap .left .app_wukuai_divider {
+    margin-right: 2%;
+  }
   .main .wrap .left .ping,
-  .main .wrap .left .fuwu {
+  .main .wrap .left .fuwu,
+  .main .wrap .left .fuwu01 {
     padding-bottom: 0;
   }
   .main .wrap .left .ping {
+    margin-right: 2%;
     height: 403px;
     margin-bottom: 0;
   }
@@ -291,7 +296,12 @@
   .main .wrap .left .ping form ul.tijiao li {
     text-align: center;
   }
-  .main .wrap .left .fuwu a {
+  .main .wrap .left .fuwu,
+  .main .wrap .left .fuwu01 {
+    height: 403px;
+  }
+  .main .wrap .left .fuwu a,
+  .main .wrap .left .fuwu01 a {
     display: block;
     text-align: center;
   }
@@ -300,6 +310,7 @@
   }
   .main .zixun {
     width: 100%;
+    margin-bottom: 0 !important;
   }
   .main .zixun .zi {
     width: 100%;
@@ -309,7 +320,7 @@
     margin-right: 0;
     margin-bottom: 20px;
   }
-  .main .zixun .zi>li:nth-child(2n+1) {
+  .main .zixun .zi>li:nth-of-type(2n+1) {
     margin-right: 2%;
   }
   .main .zixun .zi>li .wa_u {
@@ -343,7 +354,8 @@
 }
 @media screen and (max-width: 991px) and (max-width: 767px) {
   .main .ping,
-  .main .fuwu {
+  .main .fuwu,
+  .main .fuwu01 {
     width: 100% !important;
     margin-bottom: 20px !important;
     margin-right: 0 !important;
@@ -361,6 +373,113 @@
 }
 @media screen and (max-width: 991px) {
   .sb_pg_div {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .redian {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .redian .rd_l {
+    display: none;
+  }
+  .redian .rd_r {
+    float: none;
+    width: 80%;
+    padding: 0;
+    margin-left: 3%;
+  }
+  .redian .rd_r .wa_f {
+    width: 100%;
+  }
+  .redian .rd_r .redian01 {
+    width: 100%;
+  }
+  .redian .rd_r .redian01>li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main .app_edu_wrap {
+    margin-bottom: 0;
+    -moz-box-direction: normal;
+    -webkit-box-direction: normal;
+    -o-box-direction: normal;
+    box-direction: normal;
+  }
+  .main .app_edu_wrap>div {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -o-box;
+    display: box;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -o-box-orient: vertical;
+    box-orient: vertical;
+    -moz-box-direction: reverse;
+    -webkit-box-direction: reverse;
+    -o-box-direction: reverse;
+    box-direction: reverse;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  .main .app_edu_wrap>div .pinggu01 {
+    display: none;
+  }
+  .main .app_edu_wrap>div .wukuai08 {
+    display: none;
+  }
+  .main .app_edu_wrap .right .paim {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 20px;
+  }
+  .main .app_edu_wrap .right .paim .paim01 {
+    float: none;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .main .app_edu_wrap .right .paim .paim01 .pai {
+    padding-left: 20px;
+    padding-right: 0;
+    width: 100%;
+  }
+  .main .app_edu_wrap .right .paim .paim01 .paimx {
+    width: 100%;
+  }
+  .main .app_edu_wrap .right .paim .paim01 .paimx img {
+    width: 100%;
+  }
+  .main .app_edu_wrap .right .paim .paim01 .paim02 {
+    width: 100%;
+  }
+  .main .app_edu_wrap .right .paim .paim01 .paim02 li {
+    width: 50%;
+  }
+  .main .app_edu_wrap .right .paim .anli {
+    display: none;
+  }
+  .main .app_edu_wrap .right .bbmenu {
+    width: 100% !important;
+  }
+  .main .app_edu_wrap .right .bbmenu .ben02 {
+    width: 32.8% !important;
+    margin-right: 0.8% !important;
+  }
+  .main .app_edu_wrap .right .bbmenu .ben03 {
+    width: 49.5% !important;
+    margin-right: 1% !important;
+  }
+  .main .app_edu_wrap .right .bbmenu .ben02 a,
+  .main .app_edu_wrap .right .bbmenu .ben03 a {
+    width: 100%;
+  }
+  .main .app_edu_wrap .right .bbmenu .ben02:nth-last-child(1),
+  .main .app_edu_wrap .right .bbmenu .ben03:nth-last-child(1) {
+    margin-right: 0 !important;
+  }
+  .main .app_edu_wrap .guanggao {
     display: none;
   }
 }

@@ -102,18 +102,18 @@
           float left
           width 49%
 
-        .wukuai01, .wukuai03, .ping
-          margin-right 2%
-
-        .wukuai05
-          display none
-
-        .wukuai01, .wukuai02, .wukuai03, .wukuai04
+        .wukuai01, .wukuai02, .wukuai03, .wukuai04, .wukuai05, .wukuai06, .wukuai07, .wukuai08, .wukuai09
           padding-left 0
           text-align center
           background #fff
 
-        .ping, .fuwu
+        .app_wukuai_dismiss
+          display none
+
+        .app_wukuai_divider
+          margin-right 2%
+
+        .ping, .fuwu, .fuwu01
           padding-bottom 0
           @media screen and (max-width : $screen-xs-max)
             width 100% !important
@@ -122,6 +122,7 @@
             height auto !important
 
         .ping
+          margin-right 2%
           height 403px
           margin-bottom 0
           form
@@ -145,7 +146,8 @@
               li
                 text-align center
 
-        .fuwu
+        .fuwu, .fuwu01
+          height 403px
           a
             display block
             text-align center
@@ -155,13 +157,14 @@
 
     .zixun
       width 100%
+      margin-bottom 0 !important
       .zi
         width 100%
         &>li
           width 49%
           margin-right 0
           margin-bottom 20px
-          &:nth-child(2n+1)
+          &:nth-of-type(2n+1)
             margin-right 2%
 
           .wa_u
