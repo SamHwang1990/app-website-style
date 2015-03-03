@@ -23,7 +23,7 @@ module.exports = function(grunt){
           '<%= distdir %>/app_custom.css':
             ['<%= src.stylus %>'] },
         options: {
-          compile: true
+          compress: false
         }
       }
     },
