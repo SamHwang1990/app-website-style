@@ -171,18 +171,9 @@
   .main .wrap {
     width: 100%;
     margin-bottom: 20px;
-    display: -moz-box;
-    display: -webkit-box;
-    display: -o-box;
-    display: box;
-    -moz-box-orient: vertical;
-    -webkit-box-orient: vertical;
-    -o-box-orient: vertical;
-    box-orient: vertical;
-    -moz-box-direction: reverse;
-    -webkit-box-direction: reverse;
-    -o-box-direction: reverse;
-    box-direction: reverse;
+/*displayBox()*/
+/*displayBoxOrient(vertical)*/
+/*displayBoxDirection(reverse)*/
     clear: both;
   }
   .main .wrap .right {
@@ -438,18 +429,9 @@
     box-direction: normal;
   }
   .main .app_edu_wrap>div {
-    display: -moz-box;
-    display: -webkit-box;
-    display: -o-box;
-    display: box;
-    -moz-box-orient: vertical;
-    -webkit-box-orient: vertical;
-    -o-box-orient: vertical;
-    box-orient: vertical;
-    -moz-box-direction: reverse;
-    -webkit-box-direction: reverse;
-    -o-box-direction: reverse;
-    box-direction: reverse;
+/*displayBox()*/
+/*displayBoxOrient(vertical)*/
+/*displayBoxDirection(reverse)*/
     margin-bottom: 20px;
     clear: both;
   }
