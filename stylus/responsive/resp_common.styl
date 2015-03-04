@@ -1,3 +1,4 @@
+//== component style
 .app_display
   @media screen and (max-width : $screen-sm-max)
     display none !important
@@ -8,9 +9,76 @@
   @media screen and (max-width : $screen-xs-max)
     margin-right 0
 
+//== common footer: ss and sb_pg_div
+.ss
+  @media screen and (max-width : $screen-sm-max)
+    .footer
+    .foo_a
+      display none
 
+    .footer_a
+      padding-top 10px
+
+.sb_pg_div
+  @media screen and (max-width : $screen-sm-max)
+  display none
+
+//== .wrap SubObject
 .wrap
   @media screen and (max-width : $screen-sm-max)
+    // have subsort list page
+    .bmenu
+      width 100%
+      ul
+        width 100%
+        float none
+      .ben01
+        width 24.4%
+        margin-right 0.8%
+        a
+          width 100%
+        &:nth-last-child(1)
+          margin-right 0
+    .bbmenu
+      width 100% !important
+      .ben02
+        width 32.8% !important
+        margin-right 0.8% !important
+      .ben03
+        width 49.5% !important
+        margin-right 1% !important
+      .ben02
+      .ben03
+        a
+          width 100%
+        &:nth-last-child(1)
+          margin-right 0 !important
+
+    // in edu index page
+    .paim
+      width 100%
+      background #ffffff
+      padding-bottom 20px
+      .paim01
+        float none
+        width 90%
+        margin-left 2%
+        .pai
+          padding-left 20px
+          padding-right 0
+          width 100%
+        .paimx
+          width 100%
+          img
+            width 100%
+        .paim02
+          width 100%
+          li
+            width 50%
+      .anli
+        display none
+
+    // no subsort list page
     .guihuax
       width 100%
       padding 20px 0 0 0
@@ -23,3 +91,116 @@
       img
         display block
         width 100%
+
+
+    .wukuai01, .wukuai02, .wukuai03, .wukuai04, .wukuai05, .wukuai06, .wukuai07, .wukuai08, .wukuai09
+      padding-left 0
+      text-align center
+      background #fff
+    .app_wukuai_dismiss
+      display none
+    .app_wukuai_divider
+      margin-right 2%
+
+    // in college list page
+    .shuxin table
+      width 100%
+      td
+        height auto
+        padding-bottom 5px
+      .shux01
+        padding-top 0px
+        padding-bottom 5px
+        width 100%
+        height auto
+        li
+          margin-top 5px
+
+    // in language index page
+    .jiangzuo
+      margin-top 0
+      height 403px
+      a
+        display: block
+        height 100%
+        width 235px
+        margin 0 auto
+        background #fff
+      img
+        display inline-block
+        margin-top 60px
+    
+    // pagebox, in list page
+    .pagebox
+      width 100%
+      a
+        display none
+        height 30px
+        line-height 30px
+        padding 0 12px
+        &:last-of-type
+          display inline-block
+        &:first-of-type
+          display inline-block
+
+    // list block in college list page
+    .lie .lie_a
+      width 100%
+      padding-bottom 30px
+      .lie01
+        display block
+        width auto
+        border 0px
+        margin-bottom 16px
+        text-align left
+        img
+          border #dbdbdb 1px solid
+
+        &+td
+          display block
+          width auto
+
+      .syuan01
+        padding-left 0
+        width 100%
+
+      .syuan04
+        width 100%
+        img
+          display block
+          width 100%
+
+
+.wrap
+  @media screen and (max-width : $screen-xs-max)
+    .jiangzuo
+      margin-bottom 20px !important
+      height auto !important
+      width 100% !important
+      a
+        height auto !important
+      img
+        margin-top 0 !important
+
+
+//== .main SubObject
+.main
+  @media screen and (max-width : $screen-sm-max)
+    .guanggao
+      display none
+    .redian
+      width 100%
+      padding 20px 0
+      .rd_l
+        display none
+      .rd_r
+        float none
+        width 80%
+        padding 0
+        margin-left 3%
+        .wa_f
+          width 100%
+        .redian01
+          width 100%
+          &>li
+            width 50%
