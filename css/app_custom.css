@@ -483,3 +483,154 @@
     display: none;
   }
 }
+@media screen and (max-width: 991px) {
+  .daditu {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main .app_college_wrap {
+    display: block;
+  }
+}
+@media screen and (max-width: 991px) {
+  .app_display {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrap .left_l {
+    width: 100%;
+    float: none;
+  }
+  .wrap .left_l>div {
+    padding-left: 0;
+    margin-left: 4%;
+    margin-right: 1%;
+    width: 95%;
+  }
+  .wrap .left_l .shuxin table {
+    width: 100%;
+  }
+  .wrap .left_l .shuxin table td {
+    height: auto;
+    padding-bottom: 5px;
+  }
+  .wrap .left_l .shuxin table .shux01 {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .wrap .left_l .shuxin table .shux01 li {
+    margin-top: 5px;
+  }
+  .wrap .left_l .lie .lie_a {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .wrap .left_l .lie .lie_a .lie01 {
+    display: block;
+    width: auto;
+    border: 0px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .wrap .left_l .lie .lie_a .lie01 img {
+    border: #dbdbdb 1px solid;
+  }
+  .wrap .left_l .lie .lie_a .lie01+td {
+    display: block;
+    width: auto;
+  }
+  .wrap .left_l .lie .lie_a .syuan01 {
+    padding-left: 0;
+    width: 100%;
+  }
+  .wrap .left_l .lie .lie_a .syuan04 {
+    width: 100%;
+  }
+  .wrap .left_l .lie .lie_a .syuan04 img {
+    display: block;
+    width: 100%;
+  }
+  .wrap .left_l .lie .pagebox {
+    width: 100%;
+  }
+  .wrap .left_l .lie .pagebox a {
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+  }
+  .wrap .left_l .lie .pagebox a:last-of-type {
+    display: inline-block;
+  }
+  .wrap .left_l .lie .pagebox a:first-of-type {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrap .left_l .yuansou>div {
+    float: none;
+    margin-bottom: 10px;
+  }
+  .wrap .left_l .lie .lie_a .syuan05 {
+    display: block;
+    padding: 10px 0 5px 0;
+  }
+  .wrap .left_l .lie .lie_a .syuan05 td {
+    display: block;
+    float: left;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrap .right_r {
+    float: none;
+    width: 100%;
+  }
+  .wrap .right_r .shubiao {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .wrap .right_r .shubiao .shu_b {
+    display: none;
+  }
+  .wrap .right_r .shubiao .shu_r {
+    float: none;
+    width: 100%;
+  }
+  .wrap .right_r .shubiao .shu_r ul {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .wrap .right_r .shubiao .shu_r ul li {
+    float: left;
+    width: 47%;
+    text-align: center;
+  }
+  .wrap .right_r .shubiao .shu_r ul li:odd {
+    margin-right: 3%;
+  }
+  .wrap .wukuai01,
+  .wrap .wukuai02,
+  .wrap .wukuai03,
+  .wrap .wukuai04,
+  .wrap .wukuai05,
+  .wrap .wukuai06,
+  .wrap .wukuai07,
+  .wrap .wukuai08,
+  .wrap .wukuai09 {
+    float: left;
+    width: 49%;
+    padding-left: 0;
+    text-align: center;
+    background: #fff;
+  }
+  .wrap .app_wukuai_dismiss {
+    display: none !important;
+  }
+  .wrap .app_wukuai_divider {
+    margin-right: 2%;
+  }
+}
