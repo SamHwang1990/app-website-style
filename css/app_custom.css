@@ -188,6 +188,7 @@
   .main .wrap .right {
     float: none;
     width: 100%;
+    padding-top: 20px;
   }
   .main .wrap .right .benke {
     width: 100%;
@@ -305,6 +306,21 @@
     display: block;
     text-align: center;
   }
+  .main .wrap .left .jiangzuo {
+    margin-top: 0;
+    height: 403px;
+  }
+  .main .wrap .left .jiangzuo a {
+    display: block;
+    height: 100%;
+    width: 235px;
+    margin: 0 auto;
+    background: #fff;
+  }
+  .main .wrap .left .jiangzuo img {
+    display: inline-block;
+    margin-top: 60px;
+  }
   .main .guanggao {
     display: none;
   }
@@ -360,6 +376,19 @@
     margin-bottom: 20px !important;
     margin-right: 0 !important;
     height: auto !important;
+  }
+}
+@media screen and (max-width: 991px) and (max-width: 767px) {
+  .main .jiangzuo {
+    margin-bottom: 20px !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+  .main a {
+    height: auto !important;
+  }
+  .main img {
+    margin-top: 0 !important;
   }
 }
 @media screen and (max-width: 991px) {
@@ -491,11 +520,6 @@
 @media screen and (max-width: 991px) {
   .main .app_college_wrap {
     display: block;
-  }
-}
-@media screen and (max-width: 991px) {
-  .app_display {
-    display: none !important;
   }
 }
 @media screen and (max-width: 991px) {
@@ -632,5 +656,51 @@
   }
   .wrap .app_wukuai_divider {
     margin-right: 2%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .peixun {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+  }
+  .peixun a,
+  .peixun img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .app_display {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .app_divider_right {
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .app_divider_right {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrap .guihuax {
+    width: 100%;
+    padding: 20px 0 0 0;
+    text-indent: 2em;
+  }
+  .wrap .guihuax .guihuax01 {
+    display: block;
+    margin-right: 20px;
+  }
+  .wrap .guihuax02 {
+    width: 100%;
+  }
+  .wrap .guihuax02 img {
+    display: block;
+    width: 100%;
   }
 }
