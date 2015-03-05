@@ -172,6 +172,9 @@
     content: '';
     clear: both;
   }
+  .wrap .right_a {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 991px) {
   .focus {
@@ -560,6 +563,9 @@
   display: inline-block;
   margin-top: 60px;
 }
+.wrap .ggao {
+  display: none;
+}
 .wrap .pagebox {
   width: 100%;
 }
@@ -574,6 +580,19 @@
 }
 .wrap .pagebox a:first-of-type {
   display: inline-block;
+}
+.wrap .luqu01,
+.wrap .datu {
+  width: 100%;
+}
+.wrap .datu img {
+  max-width: 100%;
+}
+.wrap .datu>p {
+  width: 90%;
+  padding-left: 0;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 @media screen and (max-width: 767px) {
   .wrap .jiangzuo {
