@@ -133,13 +133,450 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrap {
+    width: 100%;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  .wrap .left {
+    float: none;
+    width: 100%;
+  }
+  .wrap .left>div {
+    float: left;
+    width: 49%;
+  }
+  .wrap .left_l {
+    width: 100%;
+    float: none;
+  }
+  .wrap .left_l>div {
+    padding-left: 0;
+    margin-left: 4%;
+    margin-right: 1%;
+    width: 95%;
+  }
+  .wrap .right {
+    float: none;
+    width: 100%;
+  }
+  .wrap .right_r {
+    float: none;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
   .focus {
     display: none;
   }
 }
 @media screen and (max-width: 991px) {
+  .main .app_edu_wrap {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .daditu {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main .app_college_wrap {
+    display: block;
+  }
+}
+.peixun {
+  height: auto;
+  margin-top: 5px;
+}
+@media screen and (max-width: 991px) {
+  .peixun {
+    width: 100%;
+  }
+}
+.peixun a,
+.peixun img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 991px) {
+  .app_display {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .app_divider_right_sm {
+    margin-right: 2%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .app_divider_right_sm {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .ss .footer,
+  .ss .foo_a {
+    display: none;
+  }
+  .ss .footer_a {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .sb_pg_div {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .wrap {
+    width: 100%;
+  }
+  .wrap .benke {
+    width: 100%;
+  }
+  .wrap .mben {
+    width: 100%;
+  }
+  .wrap .bmenu {
+    width: 100%;
+  }
+  .wrap .bmenu ul {
+    width: 100%;
+    float: none;
+  }
+  .wrap .bmenu .ben01 {
+    width: 24.4%;
+    margin-right: 0.8%;
+  }
+  .wrap .bmenu .ben01 a {
+    width: 100%;
+  }
+  .wrap .bmenu .ben01:nth-last-child(1) {
+    margin-right: 0;
+  }
+  .wrap .bbmenu {
+    width: 100% !important;
+  }
+  .wrap .bbmenu .ben02 {
+    width: 32.8% !important;
+    margin-right: 0.8% !important;
+  }
+  .wrap .bbmenu .ben03 {
+    width: 49.5% !important;
+    margin-right: 1% !important;
+  }
+  .wrap .bbmenu .ben02 a,
+  .wrap .bbmenu .ben03 a {
+    width: 100%;
+  }
+  .wrap .bbmenu .ben02:nth-last-child(1),
+  .wrap .bbmenu .ben03:nth-last-child(1) {
+    margin-right: 0 !important;
+  }
+  .wrap .aa {
+    width: 100%;
+  }
+  .wrap .aa .meiben {
+    width: 100%;
+  }
+  .wrap .aa .meiben .mb_l,
+  .wrap .aa .meiben .gao_l {
+    float: none;
+    width: 100%;
+  }
+  .wrap .aa .meiben .mb_l .xingshi,
+  .wrap .aa .meiben .gao_l .xingshi {
+    width: 100%;
+  }
+  .wrap .aa .meiben .mb_l .xingshi li,
+  .wrap .aa .meiben .gao_l .xingshi li {
+    width: 50%;
+  }
+  .wrap .aa .meiben .mb_r,
+  .wrap .aa .meiben .gao_r {
+    display: none;
+    float: none;
+    padding: 0;
+  }
+  .wrap .paim {
+    width: 100%;
+    background: #fff;
+    padding-bottom: 20px;
+  }
+  .wrap .paim .paim01 {
+    float: none;
+    width: 90%;
+    margin-left: 2%;
+  }
+  .wrap .paim .paim01 .pai {
+    padding-left: 20px;
+    padding-right: 0;
+    width: 100%;
+  }
+  .wrap .paim .paim01 .paimx {
+    width: 100%;
+  }
+  .wrap .paim .paim01 .paimx img {
+    width: 100%;
+  }
+  .wrap .paim .paim01 .paim02 {
+    width: 100%;
+  }
+  .wrap .paim .paim01 .paim02 li {
+    width: 50%;
+  }
+  .wrap .paim .anli {
+    display: none;
+  }
+  .wrap .guihuax {
+    width: 100%;
+    padding: 20px 0 0 0;
+    text-indent: 2em;
+  }
+  .wrap .guihuax .guihuax01 {
+    display: block;
+    margin-right: 20px;
+  }
+  .wrap .guihuax02 {
+    width: 100%;
+  }
+  .wrap .guihuax02 img {
+    display: block;
+    width: 100%;
+  }
+  .wrap .wukuai01,
+  .wrap .wukuai02,
+  .wrap .wukuai03,
+  .wrap .wukuai04,
+  .wrap .wukuai05,
+  .wrap .wukuai06,
+  .wrap .wukuai07,
+  .wrap .wukuai08,
+  .wrap .wukuai09 {
+    float: left;
+    width: 49%;
+    padding-left: 0;
+    text-align: center;
+    background: #fff;
+  }
+  .wrap .app_wukuai_dismiss {
+    display: none !important;
+  }
+  .wrap .app_wukuai_divider {
+    margin-right: 2%;
+  }
+  .wrap .shubiao {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .wrap .shubiao .shu_b {
+    display: none;
+  }
+  .wrap .shubiao .shu_r {
+    float: none;
+    width: 100%;
+  }
+  .wrap .shubiao .shu_r ul {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .wrap .shubiao .shu_r ul li {
+    float: left;
+    width: 47%;
+    text-align: center;
+  }
+  .wrap .shubiao .shu_r ul li:odd {
+    margin-right: 3%;
+  }
+  .wrap .ping {
+    float: left;
+    width: 49%;
+    height: 403px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .wrap .ping form {
+    margin-top: 20px !important;
+  }
+  .wrap .ping form p.wa_e {
+    margin-bottom: 16px;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 0;
+  }
+  .wrap .ping form input.shuru {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+  }
+  .wrap .ping form ul.tijiao {
+    margin: 10px auto;
+    padding-left: 0;
+    width: 60%;
+  }
+  .wrap .ping form ul.tijiao li {
+    text-align: center;
+  }
+  .wrap .fuwu,
+  .wrap .fuwu01 {
+    float: left;
+    padding-bottom: 0;
+    height: 403px;
+    width: 49%;
+  }
+  .wrap .fuwu a,
+  .wrap .fuwu01 a {
+    display: block;
+    text-align: center;
+  }
+  .wrap .shuxin table {
+    width: 100%;
+  }
+  .wrap .shuxin table td {
+    height: auto;
+    padding-bottom: 5px;
+  }
+  .wrap .shuxin table .shux01 {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .wrap .shuxin table .shux01 li {
+    margin-top: 5px;
+  }
+  .wrap .jiangzuo {
+    float: left;
+    margin-top: 0;
+    height: 403px;
+    width: 49%;
+  }
+  .wrap .jiangzuo a {
+    display: block;
+    height: 100%;
+    width: 235px;
+    margin: 0 auto;
+    background: #fff;
+  }
+  .wrap .jiangzuo img {
+    display: inline-block;
+    margin-top: 60px;
+  }
+  .wrap .pagebox {
+    width: 100%;
+  }
+  .wrap .pagebox a {
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+  }
+  .wrap .pagebox a:last-of-type {
+    display: inline-block;
+  }
+  .wrap .pagebox a:first-of-type {
+    display: inline-block;
+  }
+  .wrap .lie .lie_a {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .wrap .lie .lie_a .lie01 {
+    display: block;
+    width: auto;
+    border: 0px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .wrap .lie .lie_a .lie01 img {
+    border: #dbdbdb 1px solid;
+  }
+  .wrap .lie .lie_a .lie01+td {
+    display: block;
+    width: auto;
+  }
+  .wrap .lie .lie_a .syuan01 {
+    padding-left: 0;
+    width: 100%;
+  }
+  .wrap .lie .lie_a .syuan04 {
+    width: 100%;
+  }
+  .wrap .lie .lie_a .syuan04 img {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrap .jiangzuo {
+    float: none;
+    margin-bottom: 20px;
+    height: auto;
+    width: 100%;
+  }
+  .wrap .jiangzuo a {
+    height: auto;
+  }
+  .wrap .jiangzuo img {
+    margin-top: 0;
+  }
+  .wrap .ping,
+  .wrap .fuwu,
+  .wrap .fuwu01 {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    height: auto;
+  }
+  .wrap .yuansou>div {
+    float: none;
+    margin-bottom: 10px;
+  }
+  .wrap .lie .lie_a .syuan05 {
+    display: block;
+    padding: 10px 0 5px 0;
+  }
+  .wrap .lie .lie_a .syuan05 td {
+    display: block;
+    float: left;
+  }
+}
+@media screen and (max-width: 991px) {
   .main {
     width: 100%;
+  }
+  .main .guanggao {
+    display: none;
+  }
+  .main .redian {
+    width: 100%;
+    padding: 20px 0;
+  }
+  .main .redian .rd_l {
+    display: none;
+  }
+  .main .redian .rd_r {
+    float: none;
+    width: 80%;
+    padding: 0;
+    margin-left: 3%;
+  }
+  .main .redian .rd_r .wa_f {
+    width: 100%;
+  }
+  .main .redian .rd_r .redian01 {
+    width: 100%;
+  }
+  .main .redian .rd_r .redian01>li {
+    width: 50%;
   }
   .main .wenzhang {
     width: 100%;
@@ -167,153 +604,6 @@
   }
   .main .wenzhang .wenzhang_l .wenlie li {
     width: 50%;
-  }
-  .main .wrap {
-    width: 100%;
-    margin-bottom: 20px;
-/*displayBox()*/
-/*displayBoxOrient(vertical)*/
-/*displayBoxDirection(reverse)*/
-    clear: both;
-  }
-  .main .wrap .right {
-    float: none;
-    width: 100%;
-    padding-top: 20px;
-  }
-  .main .wrap .right .benke {
-    width: 100%;
-  }
-  .main .wrap .right .benke .mben {
-    width: 100%;
-  }
-  .main .wrap .right .benke .aa {
-    width: 100%;
-  }
-  .main .wrap .right .benke .aa .meiben {
-    width: 100%;
-  }
-  .main .wrap .right .benke .aa .meiben .mb_l,
-  .main .wrap .right .benke .aa .meiben .gao_l {
-    float: none;
-    width: 100%;
-  }
-  .main .wrap .right .benke .aa .meiben .mb_l .xingshi,
-  .main .wrap .right .benke .aa .meiben .gao_l .xingshi {
-    width: 100%;
-  }
-  .main .wrap .right .benke .aa .meiben .mb_l .xingshi li,
-  .main .wrap .right .benke .aa .meiben .gao_l .xingshi li {
-    width: 50%;
-  }
-  .main .wrap .right .benke .aa .meiben .mb_r,
-  .main .wrap .right .benke .aa .meiben .gao_r {
-    display: none;
-    float: none;
-    padding: 0;
-  }
-  .main .wrap .right .benke .bmenu {
-    width: 100%;
-  }
-  .main .wrap .right .benke .bmenu ul {
-    width: 100%;
-    float: none;
-  }
-  .main .wrap .right .benke .bmenu .ben01 {
-    width: 24.4%;
-    margin-right: 0.8%;
-  }
-  .main .wrap .right .benke .bmenu .ben01 a {
-    width: 100%;
-  }
-  .main .wrap .right .benke .bmenu .ben01:nth-last-child(1) {
-    margin-right: 0;
-  }
-  .main .wrap .left {
-    float: none;
-    width: 100%;
-  }
-  .main .wrap .left>div {
-    float: left;
-    width: 49%;
-  }
-  .main .wrap .left .wukuai01,
-  .main .wrap .left .wukuai02,
-  .main .wrap .left .wukuai03,
-  .main .wrap .left .wukuai04,
-  .main .wrap .left .wukuai05,
-  .main .wrap .left .wukuai06,
-  .main .wrap .left .wukuai07,
-  .main .wrap .left .wukuai08,
-  .main .wrap .left .wukuai09 {
-    padding-left: 0;
-    text-align: center;
-    background: #fff;
-  }
-  .main .wrap .left .app_wukuai_dismiss {
-    display: none;
-  }
-  .main .wrap .left .app_wukuai_divider {
-    margin-right: 2%;
-  }
-  .main .wrap .left .ping,
-  .main .wrap .left .fuwu,
-  .main .wrap .left .fuwu01 {
-    padding-bottom: 0;
-  }
-  .main .wrap .left .ping {
-    margin-right: 2%;
-    height: 403px;
-    margin-bottom: 0;
-  }
-  .main .wrap .left .ping form {
-    margin-top: 20px !important;
-  }
-  .main .wrap .left .ping form p.wa_e {
-    margin-bottom: 16px;
-    font-size: 18px;
-    text-align: center;
-    padding-left: 0;
-  }
-  .main .wrap .left .ping form input.shuru {
-    display: block;
-    margin: 10px auto;
-    width: 60%;
-  }
-  .main .wrap .left .ping form ul.tijiao {
-    margin: 10px auto;
-    padding-left: 0;
-    width: 60%;
-  }
-  .main .wrap .left .ping form ul.tijiao li {
-    text-align: center;
-  }
-  .main .wrap .left .fuwu,
-  .main .wrap .left .fuwu01 {
-    height: 403px;
-  }
-  .main .wrap .left .fuwu a,
-  .main .wrap .left .fuwu01 a {
-    display: block;
-    text-align: center;
-  }
-  .main .wrap .left .jiangzuo {
-    margin-top: 0;
-    height: 403px;
-  }
-  .main .wrap .left .jiangzuo a {
-    display: block;
-    height: 100%;
-    width: 235px;
-    margin: 0 auto;
-    background: #fff;
-  }
-  .main .wrap .left .jiangzuo img {
-    display: inline-block;
-    margin-top: 60px;
-  }
-  .main .guanggao {
-    display: none;
   }
   .main .zixun {
     width: 100%;
@@ -352,337 +642,5 @@
     height: auto;
     max-height: 140px;
     padding-left: 0;
-  }
-}
-@media screen and (max-width: 991px) and (max-width: 767px) {
-  .main .wrap {
-    margin-bottom: 0 !important;
-  }
-}
-@media screen and (max-width: 991px) and (max-width: 767px) {
-  .main .ping,
-  .main .fuwu,
-  .main .fuwu01 {
-    width: 100% !important;
-    margin-bottom: 20px !important;
-    margin-right: 0 !important;
-    height: auto !important;
-  }
-}
-@media screen and (max-width: 991px) and (max-width: 767px) {
-  .main .jiangzuo {
-    margin-bottom: 20px !important;
-    height: auto !important;
-    width: 100% !important;
-  }
-  .main a {
-    height: auto !important;
-  }
-  .main img {
-    margin-top: 0 !important;
-  }
-}
-@media screen and (max-width: 991px) {
-  .ss .footer,
-  .ss .foo_a {
-    display: none;
-  }
-  .ss .footer_a {
-    padding-top: 10px;
-  }
-}
-@media screen and (max-width: 991px) {
-  .sb_pg_div {
-    display: none;
-  }
-}
-@media screen and (max-width: 991px) {
-  .redian {
-    width: 100%;
-    padding: 20px 0;
-  }
-  .redian .rd_l {
-    display: none;
-  }
-  .redian .rd_r {
-    float: none;
-    width: 80%;
-    padding: 0;
-    margin-left: 3%;
-  }
-  .redian .rd_r .wa_f {
-    width: 100%;
-  }
-  .redian .rd_r .redian01 {
-    width: 100%;
-  }
-  .redian .rd_r .redian01>li {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .main .app_edu_wrap {
-    margin-bottom: 0;
-    -moz-box-direction: normal;
-    -webkit-box-direction: normal;
-    -o-box-direction: normal;
-    box-direction: normal;
-  }
-  .main .app_edu_wrap>div {
-/*displayBox()*/
-/*displayBoxOrient(vertical)*/
-/*displayBoxDirection(reverse)*/
-    margin-bottom: 20px;
-    clear: both;
-  }
-  .main .app_edu_wrap>div .pinggu01 {
-    display: none;
-  }
-  .main .app_edu_wrap>div .wukuai08 {
-    display: none;
-  }
-  .main .app_edu_wrap .right .paim {
-    width: 100%;
-    background: #fff;
-    padding-bottom: 20px;
-  }
-  .main .app_edu_wrap .right .paim .paim01 {
-    float: none;
-    width: 90%;
-    margin-left: 2%;
-  }
-  .main .app_edu_wrap .right .paim .paim01 .pai {
-    padding-left: 20px;
-    padding-right: 0;
-    width: 100%;
-  }
-  .main .app_edu_wrap .right .paim .paim01 .paimx {
-    width: 100%;
-  }
-  .main .app_edu_wrap .right .paim .paim01 .paimx img {
-    width: 100%;
-  }
-  .main .app_edu_wrap .right .paim .paim01 .paim02 {
-    width: 100%;
-  }
-  .main .app_edu_wrap .right .paim .paim01 .paim02 li {
-    width: 50%;
-  }
-  .main .app_edu_wrap .right .paim .anli {
-    display: none;
-  }
-  .main .app_edu_wrap .right .bbmenu {
-    width: 100% !important;
-  }
-  .main .app_edu_wrap .right .bbmenu .ben02 {
-    width: 32.8% !important;
-    margin-right: 0.8% !important;
-  }
-  .main .app_edu_wrap .right .bbmenu .ben03 {
-    width: 49.5% !important;
-    margin-right: 1% !important;
-  }
-  .main .app_edu_wrap .right .bbmenu .ben02 a,
-  .main .app_edu_wrap .right .bbmenu .ben03 a {
-    width: 100%;
-  }
-  .main .app_edu_wrap .right .bbmenu .ben02:nth-last-child(1),
-  .main .app_edu_wrap .right .bbmenu .ben03:nth-last-child(1) {
-    margin-right: 0 !important;
-  }
-  .main .app_edu_wrap .guanggao {
-    display: none;
-  }
-}
-@media screen and (max-width: 991px) {
-  .daditu {
-    display: none;
-  }
-}
-@media screen and (max-width: 991px) {
-  .main .app_college_wrap {
-    display: block;
-  }
-}
-@media screen and (max-width: 991px) {
-  .wrap .left_l {
-    width: 100%;
-    float: none;
-  }
-  .wrap .left_l>div {
-    padding-left: 0;
-    margin-left: 4%;
-    margin-right: 1%;
-    width: 95%;
-  }
-  .wrap .left_l .shuxin table {
-    width: 100%;
-  }
-  .wrap .left_l .shuxin table td {
-    height: auto;
-    padding-bottom: 5px;
-  }
-  .wrap .left_l .shuxin table .shux01 {
-    padding-top: 0px;
-    padding-bottom: 5px;
-    width: 100%;
-    height: auto;
-  }
-  .wrap .left_l .shuxin table .shux01 li {
-    margin-top: 5px;
-  }
-  .wrap .left_l .lie .lie_a {
-    width: 100%;
-    padding-bottom: 30px;
-  }
-  .wrap .left_l .lie .lie_a .lie01 {
-    display: block;
-    width: auto;
-    border: 0px;
-    margin-bottom: 16px;
-    text-align: left;
-  }
-  .wrap .left_l .lie .lie_a .lie01 img {
-    border: #dbdbdb 1px solid;
-  }
-  .wrap .left_l .lie .lie_a .lie01+td {
-    display: block;
-    width: auto;
-  }
-  .wrap .left_l .lie .lie_a .syuan01 {
-    padding-left: 0;
-    width: 100%;
-  }
-  .wrap .left_l .lie .lie_a .syuan04 {
-    width: 100%;
-  }
-  .wrap .left_l .lie .lie_a .syuan04 img {
-    display: block;
-    width: 100%;
-  }
-  .wrap .left_l .lie .pagebox {
-    width: 100%;
-  }
-  .wrap .left_l .lie .pagebox a {
-    display: none;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 12px;
-  }
-  .wrap .left_l .lie .pagebox a:last-of-type {
-    display: inline-block;
-  }
-  .wrap .left_l .lie .pagebox a:first-of-type {
-    display: inline-block;
-  }
-}
-@media screen and (max-width: 767px) {
-  .wrap .left_l .yuansou>div {
-    float: none;
-    margin-bottom: 10px;
-  }
-  .wrap .left_l .lie .lie_a .syuan05 {
-    display: block;
-    padding: 10px 0 5px 0;
-  }
-  .wrap .left_l .lie .lie_a .syuan05 td {
-    display: block;
-    float: left;
-  }
-}
-@media screen and (max-width: 991px) {
-  .wrap .right_r {
-    float: none;
-    width: 100%;
-  }
-  .wrap .right_r .shubiao {
-    width: 100%;
-    margin-top: 20px;
-  }
-  .wrap .right_r .shubiao .shu_b {
-    display: none;
-  }
-  .wrap .right_r .shubiao .shu_r {
-    float: none;
-    width: 100%;
-  }
-  .wrap .right_r .shubiao .shu_r ul {
-    margin: 0 auto;
-    width: 90%;
-  }
-  .wrap .right_r .shubiao .shu_r ul li {
-    float: left;
-    width: 47%;
-    text-align: center;
-  }
-  .wrap .right_r .shubiao .shu_r ul li:odd {
-    margin-right: 3%;
-  }
-  .wrap .wukuai01,
-  .wrap .wukuai02,
-  .wrap .wukuai03,
-  .wrap .wukuai04,
-  .wrap .wukuai05,
-  .wrap .wukuai06,
-  .wrap .wukuai07,
-  .wrap .wukuai08,
-  .wrap .wukuai09 {
-    float: left;
-    width: 49%;
-    padding-left: 0;
-    text-align: center;
-    background: #fff;
-  }
-  .wrap .app_wukuai_dismiss {
-    display: none !important;
-  }
-  .wrap .app_wukuai_divider {
-    margin-right: 2%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .peixun {
-    width: 100%;
-    height: auto;
-    margin-top: 5px;
-  }
-  .peixun a,
-  .peixun img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-}
-@media screen and (max-width: 991px) {
-  .app_display {
-    display: none !important;
-  }
-}
-@media screen and (max-width: 991px) {
-  .app_divider_right {
-    margin-right: 2%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .app_divider_right {
-    margin-right: 0;
-  }
-}
-@media screen and (max-width: 991px) {
-  .wrap .guihuax {
-    width: 100%;
-    padding: 20px 0 0 0;
-    text-indent: 2em;
-  }
-  .wrap .guihuax .guihuax01 {
-    display: block;
-    margin-right: 20px;
-  }
-  .wrap .guihuax02 {
-    width: 100%;
-  }
-  .wrap .guihuax02 img {
-    display: block;
-    width: 100%;
   }
 }
