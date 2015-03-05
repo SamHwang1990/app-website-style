@@ -28,6 +28,53 @@
     width 100%
     height auto
 
+//== Story(xuezi) Module
+.xuezi_ben
+  @media screen and (max-width : $screen-sm-max)
+    width 100%
+    .kc_top_list
+      width 92%
+      margin-left 4%
+      margin-right 4%
+      padding-left 0
+      padding-right 0
+      .kc_top_list_b
+        margin-left 0
+      .kc_top_list_span
+        clear left
+    .xue, .xuezi
+      width 100%
+      padding-bottom 0
+      margin-bottom 15px
+    .xuezi02
+      width 96%
+      height auto
+      padding-left 0
+      padding-right 0
+      margin-left 2%
+      margin-right 2%
+      &:after
+        display block
+        content ''
+        clear both
+
+  @media screen and (max-width : $screen-xs-max)
+    .xuezi08
+      span:nth-of-type(1)
+        display none
+    .xuezi03
+      float none
+      width 100%
+      padding-left 0
+      padding-right 0
+    .xuezi04
+      width 100%
+      li
+        width 100%
+        text-align center
+      .wa_x
+        width 100%
+
 //== common footer: ss and sb_pg_div
 .ss
   @media screen and (max-width : $screen-sm-max)

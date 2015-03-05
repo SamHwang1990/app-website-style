@@ -144,14 +144,17 @@
     clear: both;
   }
   .wrap .left,
-  .wrap .left_l {
+  .wrap .left_l,
+  .wrap .left_01 {
     float: none;
     width: 100%;
   }
   .wrap .left:after,
   .wrap .left_l:after,
+  .wrap .left_01:after,
   .wrap .left:before,
-  .wrap .left_l:before {
+  .wrap .left_l:before,
+  .wrap .left_01:before {
     display: block;
     content: '';
     clear: both;
@@ -204,6 +207,64 @@
   display: block;
   width: 100%;
   height: auto;
+}
+@media screen and (max-width: 991px) {
+  .xuezi_ben {
+    width: 100%;
+  }
+  .xuezi_ben .kc_top_list {
+    width: 92%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .xuezi_ben .kc_top_list .kc_top_list_b {
+    margin-left: 0;
+  }
+  .xuezi_ben .kc_top_list .kc_top_list_span {
+    clear: left;
+  }
+  .xuezi_ben .xue,
+  .xuezi_ben .xuezi {
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+  }
+  .xuezi_ben .xuezi02 {
+    width: 96%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .xuezi_ben .xuezi02:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}
+@media screen and (max-width: 767px) {
+  .xuezi_ben .xuezi08 span:nth-of-type(1) {
+    display: none;
+  }
+  .xuezi_ben .xuezi03 {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .xuezi_ben .xuezi04 {
+    width: 100%;
+  }
+  .xuezi_ben .xuezi04 li {
+    width: 100%;
+    text-align: center;
+  }
+  .xuezi_ben .xuezi04 .wa_x {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 991px) {
   .ss .footer,
@@ -407,15 +468,22 @@
     text-align: center;
   }
   .wrap .fuwu,
-  .wrap .fuwu01 {
+  .wrap .fuwu01,
+  .wrap .fuwulc {
     float: left;
     padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
     height: 403px;
     width: 49%;
   }
   .wrap .fuwu a,
-  .wrap .fuwu01 a {
+  .wrap .fuwu01 a,
+  .wrap .fuwulc a {
     display: block;
+    text-align: center;
+  }
+  .wrap .fuwulc {
     text-align: center;
   }
   .wrap .shuxin,
@@ -523,7 +591,8 @@
   }
   .wrap .ping,
   .wrap .fuwu,
-  .wrap .fuwu01 {
+  .wrap .fuwu01,
+  .wrap .fuwulc {
     float: none;
     width: 100%;
     margin-right: 0;
