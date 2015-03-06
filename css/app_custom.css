@@ -677,7 +677,8 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .wrap .luqu03 {
+  .wrap .luqu03,
+  .wrap .luqu02 {
     width: 92%;
     padding-left: 0;
     padding-right: 0;
@@ -691,6 +692,11 @@
   .wrap .luqu03>p {
     width: 100%;
     padding-left: 0;
+  }
+  .wrap .luqu02_r,
+  .wrap .luqu02_l {
+    float: none;
+    width: 100%;
   }
   .wrap .biaoqian .bq01,
   .wrap .biaoqian .bq02 {
