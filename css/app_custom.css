@@ -492,7 +492,8 @@
     display: block;
     text-align: center;
   }
-  .wrap .fuwulc {
+  .wrap .fuwulc,
+  .wrap .fuwu {
     text-align: center;
   }
   .wrap .shuxin,
@@ -603,6 +604,7 @@
   }
   .wrap .datu>p,
   .wrap .luqu03>p {
+    width: 100%;
     padding-left: 0;
   }
   .wrap .biaoqian .bq01,
@@ -634,7 +636,7 @@
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 92%;
   }
   .wrap .guanyu img {
     display: block;
@@ -649,7 +651,16 @@
     height: auto;
     padding: 16px 0;
   }
-  .wrap .neirong .wenzi {
+  .wrap .neirong .nr01_r,
+  .wrap .neirong .nr01_l {
+    float: none;
+    width: 100%;
+  }
+  .wrap .neirong .nr01_l {
+    text-align: center;
+  }
+  .wrap .neirong .wenzi,
+  .wrap .neirong .wenzi000 {
     width: 100%;
     height: auto;
   }
