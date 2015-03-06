@@ -175,8 +175,6 @@
       td
         height auto
         padding-bottom 5px
-        /*&:nth-of-type(2n)*/
-          /*display inline-block*/
       .shux01
         padding-top 0px
         padding-bottom 5px
@@ -244,17 +242,71 @@
         &:first-of-type
           display inline-block
 
-    // article content
-    .luqu01, .datu
-      width 100%
-    .datu
+    // article and list content
+    .luqu01, .datu, .biaoqian
+      width 90%
+      margin-left auto
+      margin-right auto
+    .luqu03
+      width 90%
+      padding-left 0
+      padding-right 0
+      margin 0 auto
+    .datu, .luqu03
       img
         max-width 100%
       &>p
-        width 90%
         padding-left 0
-        margin-left 5%
-        margin-right 5%
+
+    .biaoqian
+      .bq01, .bq02
+        width 100%
+        float none
+    .yuedu02
+      .yuedu_l
+        display none
+      .yuedu_r
+        float none
+        width 100%
+        ul
+          width 90%
+          margin 0 auto
+          li
+            width 50%
+            padding-right 0
+
+    .weizhi, .guanyu, .neirong, .xguan, .xguan02
+      padding-left 0
+      padding-right 0
+      margin-left auto
+      margin-right auto
+      width 90%
+
+    .guanyu
+      img
+        display block
+        width 100%
+    .neirong
+      ul
+        width 100%
+        height auto
+      .nr01
+        width 100%
+        height auto
+        padding 16px 0
+      .wenzi
+        width 100%
+        height auto
+      .dtxuxian
+        width 100%
+        img
+          display block
+          width 100%
+    .xguan01
+      width 100%
+      li
+        padding 0
+        margin 5px 20px
 
 
 .wrap

@@ -145,29 +145,35 @@
   }
   .wrap .left,
   .wrap .left_l,
-  .wrap .left_01 {
+  .wrap .left_01,
+  .wrap .left_l01 {
     float: none;
     width: 100%;
   }
   .wrap .left:after,
   .wrap .left_l:after,
   .wrap .left_01:after,
+  .wrap .left_l01:after,
   .wrap .left:before,
   .wrap .left_l:before,
-  .wrap .left_01:before {
+  .wrap .left_01:before,
+  .wrap .left_l01:before {
     display: block;
     content: '';
     clear: both;
   }
   .wrap .right,
-  .wrap .right_r {
+  .wrap .right_r,
+  .wrap .right_r01 {
     float: none;
     width: 100%;
   }
   .wrap .right:after,
   .wrap .right_r:after,
+  .wrap .right_r01:after,
   .wrap .right:before,
-  .wrap .right_r:before {
+  .wrap .right_r:before,
+  .wrap .right_r01:before {
     display: block;
     content: '';
     clear: both;
@@ -504,95 +510,163 @@
   .wrap .shuxin table td {
     height: auto;
     padding-bottom: 5px;
-/*&:nth-of-type(2n)*/
-/*display inline-block*/
   }
-  .wrap .shux01 {
+  .wrap .shuxin table .shux01 {
     padding-top: 0px;
     padding-bottom: 5px;
     width: 100%;
     height: auto;
   }
-  .wrap .shux01 li {
+  .wrap .shuxin table .shux01 li {
     margin-top: 5px;
   }
-}
-.wrap .lie .lie_a {
-  width: 100%;
-  padding-bottom: 30px;
-}
-.wrap .lie .lie_a .lie01 {
-  display: block;
-  width: auto;
-  border: 0px;
-  margin-bottom: 16px;
-  text-align: left;
-}
-.wrap .lie .lie_a .lie01 img {
-  border: #dbdbdb 1px solid;
-}
-.wrap .lie .lie_a .lie01+td {
-  display: block;
-  width: auto;
-}
-.wrap .lie .lie_a .syuan01 {
-  padding-left: 0;
-  width: 100%;
-}
-.wrap .lie .lie_a .syuan04 {
-  width: 100%;
-}
-.wrap .lie .lie_a .syuan04 img {
-  display: block;
-  width: 100%;
-}
-.wrap .jiangzuo {
-  float: left;
-  margin-top: 0;
-  height: 403px;
-  width: 49%;
-}
-.wrap .jiangzuo a {
-  display: block;
-  height: 100%;
-  width: 235px;
-  margin: 0 auto;
-  background: #fff;
-}
-.wrap .jiangzuo img {
-  display: inline-block;
-  margin-top: 60px;
-}
-.wrap .ggao {
-  display: none;
-}
-.wrap .pagebox {
-  width: 100%;
-}
-.wrap .pagebox a {
-  display: none;
-  height: 30px;
-  line-height: 30px;
-  padding: 0 12px;
-}
-.wrap .pagebox a:last-of-type {
-  display: inline-block;
-}
-.wrap .pagebox a:first-of-type {
-  display: inline-block;
-}
-.wrap .luqu01,
-.wrap .datu {
-  width: 100%;
-}
-.wrap .datu img {
-  max-width: 100%;
-}
-.wrap .datu>p {
-  width: 90%;
-  padding-left: 0;
-  margin-left: 5%;
-  margin-right: 5%;
+  .wrap .lie .lie_a {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .wrap .lie .lie_a .lie01 {
+    display: block;
+    width: auto;
+    border: 0px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .wrap .lie .lie_a .lie01 img {
+    border: #dbdbdb 1px solid;
+  }
+  .wrap .lie .lie_a .lie01+td {
+    display: block;
+    width: auto;
+  }
+  .wrap .lie .lie_a .syuan01 {
+    padding-left: 0;
+    width: 100%;
+  }
+  .wrap .lie .lie_a .syuan04 {
+    width: 100%;
+  }
+  .wrap .lie .lie_a .syuan04 img {
+    display: block;
+    width: 100%;
+  }
+  .wrap .jiangzuo {
+    float: left;
+    margin-top: 0;
+    height: 403px;
+    width: 49%;
+  }
+  .wrap .jiangzuo a {
+    display: block;
+    height: 100%;
+    width: 235px;
+    margin: 0 auto;
+    background: #fff;
+  }
+  .wrap .jiangzuo img {
+    display: inline-block;
+    margin-top: 60px;
+  }
+  .wrap .ggao {
+    display: none;
+  }
+  .wrap .pagebox {
+    width: 100%;
+  }
+  .wrap .pagebox a {
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+  }
+  .wrap .pagebox a:last-of-type {
+    display: inline-block;
+  }
+  .wrap .pagebox a:first-of-type {
+    display: inline-block;
+  }
+  .wrap .luqu01,
+  .wrap .datu,
+  .wrap .biaoqian {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wrap .luqu03 {
+    width: 90%;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+  }
+  .wrap .datu img,
+  .wrap .luqu03 img {
+    max-width: 100%;
+  }
+  .wrap .datu>p,
+  .wrap .luqu03>p {
+    padding-left: 0;
+  }
+  .wrap .biaoqian .bq01,
+  .wrap .biaoqian .bq02 {
+    width: 100%;
+    float: none;
+  }
+  .wrap .yuedu02 .yuedu_l {
+    display: none;
+  }
+  .wrap .yuedu02 .yuedu_r {
+    float: none;
+    width: 100%;
+  }
+  .wrap .yuedu02 .yuedu_r ul {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .wrap .yuedu02 .yuedu_r ul li {
+    width: 50%;
+    padding-right: 0;
+  }
+  .wrap .weizhi,
+  .wrap .guanyu,
+  .wrap .neirong,
+  .wrap .xguan,
+  .wrap .xguan02 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .wrap .guanyu img {
+    display: block;
+    width: 100%;
+  }
+  .wrap .neirong ul {
+    width: 100%;
+    height: auto;
+  }
+  .wrap .neirong .nr01 {
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+  }
+  .wrap .neirong .wenzi {
+    width: 100%;
+    height: auto;
+  }
+  .wrap .neirong .dtxuxian {
+    width: 100%;
+  }
+  .wrap .neirong .dtxuxian img {
+    display: block;
+    width: 100%;
+  }
+  .wrap .xguan01 {
+    width: 100%;
+  }
+  .wrap .xguan01 li {
+    padding: 0;
+    margin: 5px 20px;
+  }
 }
 @media screen and (max-width: 767px) {
   .wrap .jiangzuo {
