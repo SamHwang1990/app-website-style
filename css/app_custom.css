@@ -435,7 +435,8 @@
     width: 100%;
     margin-top: 20px;
   }
-  .wrap .shubiao .shu_b {
+  .wrap .shubiao .shu_b,
+  .wrap .shubiao .shu_j {
     display: none;
   }
   .wrap .shubiao .shu_r {
@@ -448,11 +449,40 @@
   }
   .wrap .shubiao .shu_r ul li {
     float: left;
-    width: 47%;
+    width: 48%;
     text-align: center;
   }
-  .wrap .shubiao .shu_r ul li:odd {
-    margin-right: 3%;
+  .wrap .shubiao .shu_r ul li:nth-of-type(2n+1) {
+    margin-right: 4%;
+  }
+  .wrap .shubiao .shu_yuyan {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  .wrap .shubiao .shu_yuyan:after,
+  .wrap .shubiao .shu_yuyan:before {
+    display: block;
+    content: '';
+    clear: both;
+  }
+  .wrap .shubiao .shu_yuyan ul {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+  .wrap .shubiao .shu_yuyan ul li {
+    display: none;
+  }
+  .wrap .shubiao .shu_yuyan .yuyan {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    height: auto;
+    padding: 10px 0;
+    margin: 0;
   }
   .wrap .ping {
     float: left;
@@ -592,6 +622,7 @@
   .wrap .luqu01,
   .wrap .datu,
   .wrap .biaoqian,
+  .wrap .yuedu,
   .wrap .yuedu02 {
     width: 92%;
     margin-left: auto;
@@ -616,6 +647,13 @@
   .wrap .biaoqian .bq02 {
     width: 100%;
     float: none;
+  }
+  .wrap .yuedu01 {
+    width: 100%;
+    padding: 0;
+  }
+  .wrap .yuedu01 li {
+    width: 50%;
   }
   .wrap .yuedu02 .yuedu_l {
     display: none;
@@ -690,10 +728,17 @@
     display: block;
     width: 100%;
   }
-  .wrap .xguan01 {
+  .wrap .xguan01,
+  .wrap .xguan03 {
+    padding-left: 0;
     width: 100%;
   }
-  .wrap .xguan01 li {
+  .wrap .xguan01 ul,
+  .wrap .xguan03 ul {
+    width: 100%;
+  }
+  .wrap .xguan01 li,
+  .wrap .xguan03 li {
     padding: 0;
     margin: 5px 20px;
   }

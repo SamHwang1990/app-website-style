@@ -112,7 +112,7 @@
     .shubiao
       width 100%
       margin-top 20px
-      .shu_b
+      .shu_b, .shu_j
         display none
       .shu_r
         float none
@@ -122,10 +122,35 @@
           width 90%
           li
             float left
-            width 47%
+            width 48%
             text-align center
-            &:odd
-              margin-right 3%
+            &:nth-of-type(2n+1)
+              margin-right 4%
+
+      .shu_yuyan
+        float none
+        width 100%
+        height auto
+        padding-bottom 10px
+        &:after
+        &:before
+          display block
+          content ''
+          clear both
+        ul
+          margin 0 auto
+          width 90%
+          height auto
+          li
+            display none
+        .yuyan
+          display block
+          float left
+          text-align center
+          width 33.3%
+          height auto
+          padding 10px 0
+          margin 0
 
     // advertisement component
     .ping
@@ -246,7 +271,7 @@
           display inline-block
 
     // article and list content
-    .luqu01, .datu, .biaoqian, .yuedu02
+    .luqu01, .datu, .biaoqian, .yuedu, .yuedu02
       width 92%
       margin-left auto
       margin-right auto
@@ -266,6 +291,11 @@
       .bq01, .bq02
         width 100%
         float none
+    .yuedu01
+      width 100%
+      padding 0
+      li
+        width 50%
     .yuedu02
       .yuedu_l
         display none
@@ -321,8 +351,11 @@
         img
           display block
           width 100%
-    .xguan01
+    .xguan01, .xguan03
+      padding-left 0
       width 100%
+      ul
+        width 100%
       li
         padding 0
         margin 5px 20px
