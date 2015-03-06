@@ -1,8 +1,13 @@
 //== component style
 .main
+  @media screen and (min-width : $screen-md-min)
+    .app_show_sm
+      display none
   @media screen and (max-width : $screen-sm-max)
     .app_display
       display none
+    .app_show_sm
+      display block
     .app_divider_right_sm
       margin-right 2%
 

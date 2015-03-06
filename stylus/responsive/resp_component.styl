@@ -83,6 +83,9 @@
       width 100%
       padding 20px 0 0 0
       text-indent 2em
+      table
+        width 100%
+        text-indent 0
       .guihuax01
         display block
         margin-right 20px
@@ -243,12 +246,12 @@
           display inline-block
 
     // article and list content
-    .luqu01, .datu, .biaoqian
-      width 90%
+    .luqu01, .datu, .biaoqian, .yuedu02
+      width 92%
       margin-left auto
       margin-right auto
     .luqu03
-      width 90%
+      width 92%
       padding-left 0
       padding-right 0
       margin 0 auto
@@ -270,20 +273,30 @@
         float none
         width 100%
         ul
-          width 90%
-          margin 0 auto
+          width 100%
+          padding-left 0
           li
             width 50%
             padding-right 0
 
-    .weizhi, .guanyu, .neirong, .xguan, .xguan02
+    .weizhi, .guanyu, .neirong, .xguan, .xguan02, .xyuan
       padding-left 0
       padding-right 0
       margin-left auto
       margin-right auto
       width 92%
 
-    .guanyu
+    .weizhi
+      float none !important
+      &+span
+        display block
+        float none !important
+        padding-left 4% !important
+        padding-top 10px !important
+
+    .guanyu_1
+      width 100%
+    .guanyu, .guanyu_1
       img
         display block
         width 100%
@@ -313,7 +326,18 @@
       li
         padding 0
         margin 5px 20px
+    .ymenu
+      width 100%
+      ul
+        width 100%
+      li
+        width 19.5%
+        margin-left .5%
+        a
+          width 100%
 
+    .xyuan .luqu03
+      width 100%
 
 .wrap
   @media screen and (max-width : $screen-xs-max)
@@ -340,12 +364,21 @@
         float none
         clear both
         margin-bottom 10px
-    .lie .lie_a .syuan05
+    .lie .lie_a .syuan05, .xyuan01 .xyuan05
       display block
       padding 10px 0 5px 0
       td
         display block
         float left
+        width 100%
+
+    .xyuan01
+      width 100%
+      .tu
+        display none
+      .btu
+        float none
+        width 100%
 
 //== End .wrap Subject
 

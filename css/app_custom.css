@@ -395,6 +395,10 @@
     padding: 20px 0 0 0;
     text-indent: 2em;
   }
+  .wrap .guihuax table {
+    width: 100%;
+    text-indent: 0;
+  }
   .wrap .guihuax .guihuax01 {
     display: block;
     margin-right: 20px;
@@ -587,13 +591,14 @@
   }
   .wrap .luqu01,
   .wrap .datu,
-  .wrap .biaoqian {
-    width: 90%;
+  .wrap .biaoqian,
+  .wrap .yuedu02 {
+    width: 92%;
     margin-left: auto;
     margin-right: auto;
   }
   .wrap .luqu03 {
-    width: 90%;
+    width: 92%;
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto;
@@ -620,8 +625,8 @@
     width: 100%;
   }
   .wrap .yuedu02 .yuedu_r ul {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    padding-left: 0;
   }
   .wrap .yuedu02 .yuedu_r ul li {
     width: 50%;
@@ -631,14 +636,28 @@
   .wrap .guanyu,
   .wrap .neirong,
   .wrap .xguan,
-  .wrap .xguan02 {
+  .wrap .xguan02,
+  .wrap .xyuan {
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     width: 92%;
   }
-  .wrap .guanyu img {
+  .wrap .weizhi {
+    float: none !important;
+  }
+  .wrap .weizhi+span {
+    display: block;
+    float: none !important;
+    padding-left: 4% !important;
+    padding-top: 10px !important;
+  }
+  .wrap .guanyu_1 {
+    width: 100%;
+  }
+  .wrap .guanyu img,
+  .wrap .guanyu_1 img {
     display: block;
     width: 100%;
   }
@@ -678,6 +697,22 @@
     padding: 0;
     margin: 5px 20px;
   }
+  .wrap .ymenu {
+    width: 100%;
+  }
+  .wrap .ymenu ul {
+    width: 100%;
+  }
+  .wrap .ymenu li {
+    width: 19.5%;
+    margin-left: 0.5%;
+  }
+  .wrap .ymenu li a {
+    width: 100%;
+  }
+  .wrap .xyuan .luqu03 {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 767px) {
   .wrap .jiangzuo {
@@ -708,13 +743,26 @@
     clear: both;
     margin-bottom: 10px;
   }
-  .wrap .lie .lie_a .syuan05 {
+  .wrap .lie .lie_a .syuan05,
+  .wrap .xyuan01 .xyuan05 {
     display: block;
     padding: 10px 0 5px 0;
   }
-  .wrap .lie .lie_a .syuan05 td {
+  .wrap .lie .lie_a .syuan05 td,
+  .wrap .xyuan01 .xyuan05 td {
     display: block;
     float: left;
+    width: 100%;
+  }
+  .wrap .xyuan01 {
+    width: 100%;
+  }
+  .wrap .xyuan01 .tu {
+    display: none;
+  }
+  .wrap .xyuan01 .btu {
+    float: none;
+    width: 100%;
   }
 }
 @media screen and (max-width: 991px) {
@@ -812,9 +860,17 @@
     padding-left: 0;
   }
 }
+@media screen and (min-width: 992px) {
+  .main .app_show_sm {
+    display: none;
+  }
+}
 @media screen and (max-width: 991px) {
   .main .app_display {
     display: none;
+  }
+  .main .app_show_sm {
+    display: block;
   }
   .main .app_divider_right_sm {
     margin-right: 2%;
