@@ -8,7 +8,9 @@
 }
 .menu_f,
 .menu_f li.menu_c,
-.menu_f li.menu_c>a {
+.menu_f li.menu_c>a,
+.menu_f li.menu_d,
+.menu_f li.menu_d>a {
   height: 100px;
 }
 .banner {
