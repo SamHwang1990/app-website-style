@@ -362,7 +362,7 @@
     margin-right: 0.8%;
   }
   .wrap .bmenu .ben01 a {
-    width: 100%;
+    width: 100% !important;
   }
   .wrap .bmenu .ben01:nth-last-child(1) {
     margin-right: 0;
@@ -380,7 +380,7 @@
   }
   .wrap .bbmenu .ben02 a,
   .wrap .bbmenu .ben03 a {
-    width: 100%;
+    width: 100% !important;
   }
   .wrap .bbmenu .ben02:nth-last-child(1),
   .wrap .bbmenu .ben03:nth-last-child(1) {
